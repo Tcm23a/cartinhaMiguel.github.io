@@ -16,11 +16,13 @@ $(document).ready(function() {
     function open() {
         envelope.addClass("open")
             .removeClass("close");
+            $(".valentine").fadeIn();
     }
 
     function close() {
         envelope.addClass("close")
             .removeClass("open");
+            $(".valentine").hide();
     }
 
 })
